@@ -1,0 +1,45 @@
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.exe
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.deps.json
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.runtimeconfig.json
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.dll
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.pdb
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.csproj.AssemblyReference.cache
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.AssemblyInfoInputs.cache
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.AssemblyInfo.cs
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.csproj.CoreCompileInputs.cache
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.dll
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/refint/PrefijoPosfijo.dll
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.pdb
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.genruntimeconfig.cache
+C:/Users/Biblioteca-10/Desktop/Nueva carpeta (4)/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/ref/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.deps.json
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.runtimeconfig.json
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/bin/Debug/net6.0/PrefijoPosfijo.pdb
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.csproj.AssemblyReference.cache
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.AssemblyInfoInputs.cache
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.AssemblyInfo.cs
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.csproj.CoreCompileInputs.cache
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/refint/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.pdb
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/PrefijoPosfijo.genruntimeconfig.cache
+/Users/cochasoft/Downloads/Proyecto final/PrefijoPosfijo/PrefijoPosfijo/obj/Debug/net6.0/ref/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/bin/Debug/net6.0/PrefijoPosfijo
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/bin/Debug/net6.0/PrefijoPosfijo.deps.json
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/bin/Debug/net6.0/PrefijoPosfijo.runtimeconfig.json
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/bin/Debug/net6.0/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/bin/Debug/net6.0/PrefijoPosfijo.pdb
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.csproj.AssemblyReference.cache
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.AssemblyInfoInputs.cache
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.AssemblyInfo.cs
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.csproj.CoreCompileInputs.cache
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/refint/PrefijoPosfijo.dll
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.pdb
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/PrefijoPosfijo.genruntimeconfig.cache
+/Users/cochasoft/Downloads/Proyecto final/prefijo-to-postfijo/obj/Debug/net6.0/ref/PrefijoPosfijo.dll
