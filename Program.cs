@@ -9,16 +9,22 @@ namespace Recursividad {
     public static void Main(String[] args) {
       // ****************************** Kevin **************************************************************
       // En esta parte instanciamos un nuevo objeto para realizar la conversion
-      // de Prefijo a Posfijo
+      // de Prefijo a postfijo
       var nuevaConversion = new Conversion();
       // Ingresamos la expresion prefija para convertir a posfija
-      string prefijo = "*+ABC";
-      nuevaConversion.prefijoAPosfijo(prefijo);
+      string prefijo = "*+AB^CA";
+      nuevaConversion.prefijoApostfijo(prefijo);
+      // ***************************************************************************************************
+      // ****************************** Jhonatan ***********************************************************
+      //var task = new Conversion();
+      string postfijo = "AB+CA^*";
+      nuevaConversion.postfijoAPrefijo(postfijo);
       // ***************************************************************************************************
       // ****************************** Carlos *************************************************************
       // Pasamos por parametro la expresion en infijo para convertirlo a Prefijo y PostFijo
       infijoPrefijoPostfijo("(2+3)*5");
       static void infijoPrefijoPostfijo (string infijo) {
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
         string expresion = infijo;
         int tamaño = expresion.Length;
         //CREAMOS EL ARREGLO PARA SEPARAR POR CARACTERES
@@ -70,12 +76,13 @@ namespace Recursividad {
           cont++;
         }
         //MOSTRAMOS EL ARREGLO RESULTADO
+        Console.WriteLine("******** Conversión de Infijo a Prefijo y Postfijo exitosa *******");
         Console.WriteLine();
-        Console.WriteLine("PREFIJO: ");
+        Console.WriteLine("******************************************************************");
+        Console.WriteLine("->Prefijo : ");
         for (int i = resultado.Length - 1; i >= 0; i--) {
           Console.Write(resultado[i]); 
         }
-
         //CONVERTIR A POSTFIJO
         //CREAMOS EL ARREGLO DONDE SE ALMACENARÁ EL RESULTADO
         string[] resultado2 = new string[tamaño];
@@ -87,7 +94,6 @@ namespace Recursividad {
         for (int i = 0; i < tamaño; i++) {
           string caracter2 = expresionSeparada[i];
           //Console.Write(caracter);
-
           //GUARDAMOS EN ARRAY resultado SI ES OPERANDO O GUARDAMOS EN PILA operadores SI ES OPERADOR 
           if (caracter2.Equals("+") || caracter2.Equals("-") || caracter2.Equals("*") || caracter2.Equals("/") || caracter2.Equals("(")) {
             operadores2.Push(caracter2);
@@ -118,18 +124,15 @@ namespace Recursividad {
           cont2++;
         }
         //MOSTRAMOS EL ARREGLO RESULTADO
-        Console.WriteLine("");
-        Console.WriteLine("");
-        Console.WriteLine("POSTFIJO: ");
+        Console.WriteLine();
+        Console.WriteLine("******************************************************************");
+        Console.WriteLine("-> Postfijo : ");
         for (int i = 0; i < resultado2.Length; i++) {
           Console.Write(resultado2[i]);
         }
-
-
         //RESOLVER LA EXPRESIÓN MATEMÁTICA
         Console.WriteLine();
         Console.WriteLine("El resultado de " + expresion + " es igual a ");
-        
         static double Evaluar(String expression) {
           //Creo un DataTable
           System.Data.DataTable table = new System.Data.DataTable();
@@ -142,10 +145,6 @@ namespace Recursividad {
         Console.WriteLine(result);
         Console.ReadLine();
       }
-      // ***************************************************************************************************
-      // ****************************** Jhonatan ***********************************************************
-      // ***************************************************************************************************
-
     }
   }
 }

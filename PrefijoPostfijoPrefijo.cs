@@ -60,7 +60,7 @@ namespace Recursividad
       }
     }
   }
-  // La clase para la Conversion de prefijo a posfijo
+  // La clase para la Conversion de prefijo a postfijo
   public class Conversion {
     // Comprovamos o verificamos si en valor de texto que es un char es igual a operador
     public bool esOperador(char texto) {
@@ -81,7 +81,7 @@ namespace Recursividad
       return soyOperando;
     }
     // Aqui realizamos la conversion de prefijo a postfijo
-    public void prefijoAPosfijo(string prefijo) {
+    public void prefijoApostfijo(string prefijo) {
       // Obtenemos el tamaño del prefijo ingresado y lo asignamos a tamañoPila
       var tamañoPila = prefijo.Length;
       // Instanciamos un nuevo objeto -> nuevaPila con la clase MiPila 
@@ -106,7 +106,7 @@ namespace Recursividad
           }
         }
         else if (this.esOperando(prefijo[i])) {
-          // De igual forma veridicamos si es operando
+          // De igual forma verificamos si es operando
           auxiliar = prefijo[i].ToString();
           nuevaPila.apilar(auxiliar);
         }
@@ -118,16 +118,63 @@ namespace Recursividad
       if (esValido == false) {
         // En caso nuestro prefijo este mal formulado imprimimos un mensaje
         // indicando que el prefijo ingresado en invalido y mostramos lo que ingreso
-        Console.BackgroundColor = ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("Prefijo invalido : " + prefijo);
       }
       else {
-        // En esta parte imprimimos los resultados ya obtenidos osea la expresion en posfijo
-        Console.BackgroundColor = ConsoleColor.Blue;
-        Console.WriteLine("************ Conversión de Prefijo a Posfijo exitosa ************");
-        Console.WriteLine("Antes   -> Prefijo  : " + prefijo);
-        Console.WriteLine("Despues -> Posfijo  : " + nuevaPila.apilarTope());
-        Console.WriteLine("*****************************************************************");
+        // En esta parte imprimimos los resultados ya obtenidos osea la expresion en postfijo
+        Console.ForegroundColor = ConsoleColor.DarkBlue;
+        Console.WriteLine("************ Conversión de Prefijo a Postfijo exitosa ************");
+        Console.WriteLine("Antes   -> Prefijo   : " + prefijo);
+        Console.WriteLine("Despues -> Postfijo  : " + nuevaPila.apilarTope());
+        Console.WriteLine("******************************************************************");
+      }
+    }
+    public void postfijoAPrefijo(string postfijo) {
+      // Obtenemos el tamaño del prefijo ingresado y lo asignamos a tamañoPila
+      var tamañoPila = postfijo.Length;
+      // Instanciamos un nuevo objeto -> nuevaPila con la clase MiPila 
+      var nuevaPila = new MiPila();
+      // Aqui declaramos variables que nos ayudaran a almacenar el resultado actual
+      var auxiliar = "";
+      var esValido = true;
+      for (var i = 0; i < tamañoPila && esValido; i++) {
+        // Verificamos si el elemento del prefijo es operador en cada posicion
+        if (this.esOperador(postfijo[i])) {
+          // Cuando se encuentra un operador vemos si tiene 2 operandos o solo 1
+          if (nuevaPila.tamañoPila() > 1) {
+            auxiliar = nuevaPila.apilarTope();
+            auxiliar = nuevaPila.apilarTope() + auxiliar;
+            auxiliar = postfijo[i] + auxiliar;
+            nuevaPila.apilar(auxiliar);
+          }
+          else {
+            esValido = false;
+          }
+        }
+        else if (this.esOperando(postfijo[i])) {
+          // De igual forma verificamos si es operando
+          auxiliar = postfijo[i].ToString();
+          nuevaPila.apilar(auxiliar);
+        }
+        else {
+          // Si el operador u operando no es valido retornamos esValido = false;
+          esValido = false;
+        }
+      }
+      if (esValido == false) {
+        // En caso nuestro postfijo este mal formulado imprimimos un mensaje
+        // indicando que el postfijo ingresado en invalido y mostramos lo que ingreso
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Postfijo invalido : " + postfijo);
+      }
+      else {
+        // En esta parte imprimimos los resultados ya obtenidos osea la expresion en prefijo
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("************ Conversión de Postfijo a Prefijo exitosa ************");
+        Console.WriteLine("Antes   -> Postfijo  : " + postfijo);
+        Console.WriteLine("Despues -> Prefijo   : " + nuevaPila.apilarTope());
+        Console.WriteLine("******************************************************************");
       }
     }
   }
