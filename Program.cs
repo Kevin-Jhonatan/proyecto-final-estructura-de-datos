@@ -4,10 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 
-namespace Recursiividad {
-  public class Program {
-    static void Main(string[] args) {
-      // pasamos por parametro la expresion en infijo para convertirlo a Prefijo y PostFijo
+namespace Recursividad {
+  class Program {
+    public static void Main(String[] args) {
+      // ****************************** Kevin **************************************************************
+      // En esta parte instanciamos un nuevo objeto para realizar la conversion
+      // de Prefijo a Posfijo
+      var nuevaConversion = new Conversion();
+      // Ingresamos la expresion prefija para convertir a posfija
+      string prefijo = "*+ABC";
+      nuevaConversion.prefijoAPosfijo(prefijo);
+      // ***************************************************************************************************
+      // ****************************** Carlos *************************************************************
+      // Pasamos por parametro la expresion en infijo para convertirlo a Prefijo y PostFijo
       infijoPrefijoPostfijo("(2+3)*5");
       static void infijoPrefijoPostfijo (string infijo) {
         string expresion = infijo;
@@ -133,10 +142,10 @@ namespace Recursiividad {
         Console.WriteLine(result);
         Console.ReadLine();
       }
-      static void prefijoPostfijo (string prefijo) {
-        string expresion = prefijo;
+      // ***************************************************************************************************
+      // ****************************** Jhonatan ***********************************************************
+      // ***************************************************************************************************
 
-      }
     }
   }
 }
