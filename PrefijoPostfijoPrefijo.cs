@@ -130,6 +130,7 @@ namespace Recursividad
         Console.WriteLine("******************************************************************");
       }
     }
+    // Aqui realizamos la conversion de postfijo a prefijo
     public void postfijoAPrefijo(string postfijo) {
       // Obtenemos el tamaño del prefijo ingresado y lo asignamos a tamañoPila
       var tamañoPila = postfijo.Length;
