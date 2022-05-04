@@ -33,13 +33,15 @@ namespace Recursividad
         return vacia;
       }
     }
-    // Apilamos un nuevo elemento a la pila
+    // Apilamos un nuevo elemento a la pila Este es el 
+    // ******* Push ******* 
     public void apilar(string dato) {
       // Instanciamos un nuevo nodo de pila y seteamos o asignamos su valor a tope
       this.tope = new NodoDePila(dato, this.tope);
       this.contar++;
     }
     // Apilamos un nuevo tope a la pila
+    // ***** pop *****
     public String apilarTope() {
       var temporal = "";
       if (this.pilaVacia() == false) {
