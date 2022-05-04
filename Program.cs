@@ -7,6 +7,10 @@ using System.Collections;
 namespace Recursividad {
   class Program {
     public static void Main(String[] args) {
+      Console.WriteLine("Ingrantes : ");
+      Console.WriteLine("1.- Mamani Mollo Kevin Jhonatan ");
+      Console.WriteLine("2.- Morales Rodriguez Jhonatan ");
+      Console.WriteLine("3.- Moreno Arze Carlos Augusto ");
       // ****************************** Kevin **************************************************************
       // En esta parte instanciamos un nuevo objeto para realizar la conversion
       // de Prefijo a postfijo
