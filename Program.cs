@@ -17,17 +17,15 @@ namespace Recursividad {
       // de Prefijo a postfijo
       var nuevaConversion = new Conversion();
       // Ingresamos la expresion prefija para convertir a posfija
-      string prefijo = "*+AB^CA";
+      string prefijo = "*+235";
       nuevaConversion.prefijoApostfijo(prefijo);
       // ***************************************************************************************************
-      // ****************************** Jhonatan ***********************************************************
-      //var task = new Conversion();
-      string postfijo = "AB+CA^*";
+      string postfijo = "23+5*";
       nuevaConversion.postfijoAPrefijo(postfijo);
       // ***************************************************************************************************
       // ****************************** Carlos *************************************************************
       // Pasamos por parametro la expresion en infijo para convertirlo a Prefijo y PostFijo
-      infijoPrefijoPostfijo("(2+3)*5");
+      infijoPrefijoPostfijo("[(2+3)*5]");
       static void infijoPrefijoPostfijo (string infijo) {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         string expresion = infijo;
